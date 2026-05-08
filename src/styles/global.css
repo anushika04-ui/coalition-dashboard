@@ -1,0 +1,36 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+  background:#F6F7FB;
+}
+
+.dashboard{
+  display:grid;
+  grid-template-columns:260px 1fr 320px;
+  gap:24px;
+  padding:20px;
+}
+
+.left-section,
+.middle-section,
+.right-section{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+.profile-card,
+.chart-card,
+.table-card,
+.lab-card{
+  background:white;
+  border-radius:20px;
+  padding:20px;
+  box-shadow:0 4px 15px rgba(0,0,0,0.05);
+}
+
